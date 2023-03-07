@@ -6,5 +6,10 @@
 efgh
 solving merge conflicts
 
+<<<<<<< HEAD
 adding new line to undestand merge
 
+=======
+
+hello i added too
+>>>>>>> 69778d133ee6a735a6d1de28d8b6029714b4a736
