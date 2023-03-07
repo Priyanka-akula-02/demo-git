@@ -1,0 +1,306 @@
+    1  whoami
+    2  list of all files
+    3  clear
+    4  cd
+    5  mkdir p
+    6  cd p
+    7  clear
+    8  pwd
+    9  ..
+   10  cd ..
+   11  clear
+   12  nano file.txt
+   13  ls
+   14  cat file.txt 
+   15  man ls
+   16  man -a
+   17  ls -a
+   18  ls -l
+   19  ls -al
+   20  mk directory
+   21  mkdir directory
+   22  clear
+   23  pwd
+   24  ls
+   25  cp file.txt directory
+   26  cd directory/
+   27  ls
+   28  cd ..
+   29  rm directory
+   30  rmdir directory
+   31  ls
+   32  rm file.txt 
+   33  ls
+   34  cd /
+   35  ls
+   36  cd swapfile
+   37  cd media
+   38  ls
+   39  cs ..
+   40  cd ..
+   41  mkdir dir
+   42  nano animals.txt
+   43  cat animals.txt 
+   44  awk '{print $2}' animals.txt 
+   45  awk '{print $0}' animals.txt 
+   46  awk 'print $0' grep 'monkey' animals.txt
+   47  awk '{print $0}' grep 'monkey' animals.txt
+   48  awk '{print $0}' grep 'monket' animals.txt
+   49  awk '{print grep "eats" }' animals.txt
+   50  awk '{if grep "eats" pint $0 }' animals.txt
+   51  awk '{if (grep "eats") pint $0 }' animals.txt
+   52  awk '{if (grep "tiger") print $0 }' animals.txt
+   53  awk '{if (grep "tiger") print $1 }' animals.txt
+   54  awk '{if (grep "tiger") }' animals.txt
+   55  ssh chal0@43.204.232.3
+   56  chal1@43.204.232.3
+   57  ssh chal1@43.204.232.3
+   58  ssh chal2@43.204.232.3
+   59  ssh chal4@43.204.232.3
+   60  ssh chal3@43.204.232.3
+   61  43.204.232.3
+   62  pwntools 43.204.232.3
+   63  ncat 43.204.232.3 2001
+   64  apt install ncat
+   65  ssh 43.204.232.3 2001
+   66  netstat -lntu
+   67  ss
+   68  netstat
+   69  ss -na|grep :2001
+   70  ssh -keygen
+   71  ssh-keygen
+   72  git status
+   73  cat /home/priyanka.a/.ssh/id_rsa.pub
+   74  #PARH
+   75  #PATH
+   76  sudo #PATH
+   77  echo $PATH
+   78  ls
+   79  mkdir p
+   80  which p
+   81  pwd
+   82  /home/priyanka.a
+   83  export PATH="/home/priyanka.a
+   84  :$PATH"
+   85  echo $PATH
+   86  p
+   87  export PATH="/home/priyanka.a/p :$PATH"
+   88  p
+   89  ls
+   90  cp cat priya
+   91  cp usr/bin/cat priya
+   92  which cat
+   93  cp /usr/bin/cat priya
+   94  pwd
+   95  ls
+   96  priya
+   97  ./priya animals.txt
+   98  export PATH="/home/priyanka.a:$PATH"
+   99  priya
+  100  priya animals.txt
+  101  git add cookies-authentication 
+  102  git status
+  103  git add priya.txt
+  104  git status
+  105  git commit -m "hi"
+  106  git config --global "priyanka.akula02a@gmail.com" 
+  107  git config --global user.email "priyanka.akula02a@gmail.com" 
+  108  git config --global user.name "Priyanka-akula-02" 
+  109  git commit -m "hi"
+  110  git push
+  111  git pull
+  112  git push
+  113  git pull
+  114  git push
+  115  sudo useradd -m priya
+  116  git clone git@github.com:Neerajkomakula/Vegetable-Vendor-Web-application.git
+  117  ls
+  118  cd Desktop
+  119  mkdir priya
+  120  ls
+  121  cd priya
+  122  giit init
+  123  git init
+  124  clear
+  125  git init
+  126  ls
+  127  ls -a
+  128  touch p.txt
+  129  ls
+  130  git status
+  131  git add .
+  132  git status
+  133  git commit -m "p is added"
+  134  cat p.txt
+  135  vi p.txt
+  136  cat p.txt
+  137  git restore --staged p.txt
+  138  cat p.txt
+  139  git log
+  140  git add .
+  141  git commit -m "p is modified"
+  142  git restore --staged p.txt
+  143  git log
+  144  vi p.txt
+  145  git add .
+  146  git restore --staged p.txt
+  147  git status
+  148  git add .
+  149  git status
+  150  git restore --staged p.txt
+  151  git status
+  152  delete file rmm -rf p.txt
+  153  rm -rf p.txt
+  154  git status
+  155  git add .
+  156  git commit -m "p is deleted"
+  157  git log
+  158  git reset 11a79836a14d47ac22f653637603865166dd4e30
+  159  cat p.txt
+  160  git reset a15dc547eda01a6dcf56207197fe38e7fbcfb03f
+  161  cat p.txt
+  162  git add.
+  163  git add .
+  164  git stash
+  165  cat p.txt
+  166  git stash pop
+  167  cat p.txt
+  168  git stash add
+  169  git reset a15dc547eda01a6dcf56207197fe38e7fbcfb03f
+  170  git stash add
+  171  cat p.txt
+  172  git stash
+  173  cat p.txt
+  174  git stash clear
+  175  cat p.txt
+  176  git stash add
+  177  git remote add origin https://github.com/Priyanka-akula-02/ppp.git
+  178  git remote -v
+  179  git push origin master
+  180  git remote -v
+  181  priyanka-akula-02
+  182  git remote -v
+  183  git push origin master
+  184  git branch features
+  185  git checkout features
+  186  git commit
+  187  touch hi.txt
+  188  git commit
+  189  git add.
+  190  git add .
+  191  git commit
+  192  git commit -m "hi"
+  193  git merge features
+  194  git merge master
+  195  git clone https://github.com/Priyanka-akula-02/ppp.git
+  196  git clone git@github.com:Priyanka-akula-02/ppp.git
+  197  git branch features
+  198  git branch f
+  199  git push origin master
+  200  git checkout f
+  201  git commit
+  202  git add .
+  203  git commit -m "f"
+  204  git fetch --all
+  205  git clone git@github.com:Priyanka-akula-02/ppp.git
+  206  git remote add upstream git@github.com:Priyanka-akula-02/ppp.git
+  207  git remote v
+  208  git remote -v
+  209  node authentication.js
+  210  code .
+  211  code .
+  212  git remote add origin https://github.com/Priyanka-akula-02/demo-git.git
+  213  git init
+  214  git remote add origin https://github.com/Priyanka-akula-02/demo-git.git
+  215  touch chat2
+  216  dit status
+  217  git status
+  218  git init
+  219  git remote add origin git@github.com:Priyanka-akula-02/demo-git.git
+  220  git status
+  221  git add .
+  222  touch chat1.txt
+  223  git commit -m "commit2 person2"
+  224  git push
+  225  git push origin master
+  226  git pull
+  227  git pull origin master
+  228  git status
+  229  git push origin master
+  230  git status
+  231  touc chat2
+  232  touch chat2
+  233  git add .
+  234  git commit -m "hi"
+  235  git status
+  236  git init
+  237  git remote add origin git@github.com:Priyanka-akula-02/demo-git.git
+  238  git status
+  239  touch hello
+  240  git status
+  241  git add .
+  242  git commit -m "678
+  243  "
+  244  git push origin master
+  245  git pull origin master
+  246  git clone
+  247  git pull origin master
+  248  git pull
+  249  git init
+  250  git add  origin https://github.com/Priyanka-akula-02/demo-git.git
+  251  git remote add  origin https://github.com/Priyanka-akula-02/demo-git.git
+  252  touch chat.txt
+  253  git status
+  254  git add .
+  255  git commit -m "initial commit"
+  256  git push origin master
+  257  git remote add  origin git@github.com:Priyanka-akula-02/demo-git.git
+  258  git init
+  259  git status
+  260  git commit -m "initial commit"
+  261  git add .
+  262  git commit -m "initial commit"
+  263  git remote add  origin git@github.com:Priyanka-akula-02/demo-git.git
+  264  git push origin master
+  265  git init
+  266  git remote add origin git@github.com:Priyanka-akula-02/demo-git.git
+  267  git pull
+  268  git pull master
+  269  git pull origin master
+  270  git status
+  271  git add .
+  272  gitcommit -m "35789"
+  273  git commit -m "35789"
+  274  git push origin master
+  275  git add .
+  276  git push origin master
+  277  git status
+  278  git commit -m "5678"
+  279  git status
+  280  git push origin master
+  281  git pull origin master
+  282  git status
+  283  git add . && commit -m "1234"
+  284  git add . && git  commit -m "1234"
+  285  git push origin master
+  286  git branch
+  287  git branch personb
+  288  git checkout --personb
+  289  git branch --delete personb
+  290  git checkout -b personb
+  291  history
+  292  git status
+  293  git add .
+  294  git commit -m "4567"
+  295  git push origin master
+  296  touch abc
+  297  git add .
+  298  git commit -m "345678"
+  299  git push origin master
+  300  git checkout persona
+  301  git checkout master
+  302  git log --oneline
+  303  git log --all --graph
+  304  git log --graph --oneline
+  305  history
+  306  history > git.txt
