@@ -6,3 +6,5 @@
 efgh
 solving merge conflicts
 
+adding new line to undestand merge
+
